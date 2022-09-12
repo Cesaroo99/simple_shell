@@ -3,7 +3,6 @@
 
 /**
  * main - execve exemple
- * 
  * Return: Always 0.
  */
 int main(void)
