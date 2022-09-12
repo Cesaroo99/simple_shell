@@ -18,7 +18,7 @@ int main(void)
 		return (1);
 	}
 	my_pid = getpid();
-	print("My pid is %u\n", my_pid);
+	printf("My pid is %u\n", my_pid);
 	if (child_pid == 0)
 	{
 		printf("(%u) Noooooooo!\n", my_pid);
